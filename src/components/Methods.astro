@@ -1,0 +1,149 @@
+---
+---
+
+<section class="section" id="methods">
+  <div class="container">
+    <h2 class="section-title">Our Methods & Programs</h2>
+    <p class="section-subtitle">
+      We employ comprehensive strategies to enhance educational quality and support teachers across Cameroon.
+    </p>
+    
+    <div class="methods-grid">
+      <div class="card method-card">
+        <div class="method-icon">📚</div>
+        <h3 class="method-title">Research Publication</h3>
+        <p class="method-description">
+          Publication of research work by secondary school teachers on themes linked to pedagogy, ethics, and school governance.
+        </p>
+      </div>
+
+      <div class="card method-card">
+        <div class="method-icon">💡</div>
+        <h3 class="method-title">Best Practices Dissemination</h3>
+        <p class="method-description">
+          Sharing good educational and managerial practices to encourage emulation among teachers and improve overall standards.
+        </p>
+      </div>
+
+      <div class="card method-card">
+        <div class="method-icon">👥</div>
+        <h3 class="method-title">Teacher Coaching</h3>
+        <p class="method-description">
+          Coaching of young teachers by experienced retired senior teachers, providing mentorship and professional development.
+        </p>
+      </div>
+
+      <div class="card method-card">
+        <div class="method-icon">📝</div>
+        <h3 class="method-title">Dissertation Support</h3>
+        <p class="method-description">
+          Support and guidance for student teachers in writing their final dissertations, ensuring academic excellence.
+        </p>
+      </div>
+
+      <div class="card method-card">
+        <div class="method-icon">🏆</div>
+        <h3 class="method-title">Annual Awards</h3>
+        <p class="method-description">
+          Annual awards for the best secondary schools, recognizing excellence and motivating continuous improvement.
+        </p>
+      </div>
+
+      <div class="card method-card">
+        <div class="method-icon">🎓</div>
+        <h3 class="method-title">Scholarships Program</h3>
+        <p class="method-description">
+          Integrity and research scholarships for secondary school teachers to advance their professional development.
+        </p>
+      </div>
+
+      <div class="card method-card">
+        <div class="method-icon">🛡️</div>
+        <h3 class="method-title">Anti-Drug Campaign</h3>
+        <p class="method-description">
+          Fighting against drugs in schools and society at large, creating safe and healthy learning environments.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .section {
+    background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+  }
+
+  .methods-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 32px;
+    margin-top: 64px;
+  }
+
+  .method-card {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #ffffff 0%, #f7fafc 100%);
+    border: 1px solid #e2e8f0;
+  }
+
+  .method-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #ff6b6b, #4ecdc4, transparent);
+    transition: left 0.6s ease;
+  }
+
+  .method-card:hover::before {
+    left: 100%;
+  }
+
+  .method-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px -5px rgba(255, 107, 107, 0.15);
+  }
+
+  .method-icon {
+    font-size: 3rem;
+    margin-bottom: 24px;
+    display: block;
+  }
+
+  .method-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 16px;
+  }
+
+  .method-description {
+    color: #718096;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  @media (max-width: 768px) {
+    .methods-grid {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    .method-card {
+      padding: 24px;
+    }
+
+    .method-icon {
+      font-size: 2.5rem;
+      margin-bottom: 16px;
+    }
+
+    .method-title {
+      font-size: 1.25rem;
+    }
+  }
+</style>
