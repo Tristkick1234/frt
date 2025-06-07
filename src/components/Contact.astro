@@ -37,7 +37,8 @@
               <div class="contact-icon">📍</div>
               <div class="contact-text">
                 <strong>Address:</strong>
-                <span>B.P 799, Bafoussam, Republic of Cameroon</span>
+                <span>B.P 799</span>
+                <span>Bafoussam, Republic of Cameroon</span>
               </div>
             </div>
 
@@ -46,9 +47,10 @@
               <div class="contact-text">
                 <strong>Follow Us:</strong>
                 <div class="social-links">
-                  <a href="#" class="social-link">Facebook</a>
-                  <a href="#" class="social-link">Twitter</a>
-                  <a href="#" class="social-link">LinkedIn</a>
+                  <a
+                    href="https://www.facebook.com/frtb2020"
+                    class="social-link">Facebook</a
+                  >
                 </div>
               </div>
             </div>
@@ -56,6 +58,7 @@
         </div>
       </div>
 
+      <!-- 
       <div class="donation-section" id="donate">
         <div class="donation-card">
           <h3 class="donation-title">Make a Donation</h3>
@@ -83,162 +86,163 @@
             5 teachers or fund one mentorship session.
           </div>
         </div>
-      </div>
+
+        -->
     </div>
   </div>
-</section>
 
-<style>
-  .contact-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 48px;
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-
-  .contact-card,
-  .donation-card {
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
-    border-radius: 16px;
-    padding: 32px;
-    box-shadow: 0 10px 30px -5px rgba(255, 107, 107, 0.15);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-  }
-
-  .contact-title,
-  .donation-title {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #2d3748;
-    margin-bottom: 24px;
-  }
-
-  .contact-details {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-  }
-
-  .contact-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 16px;
-  }
-
-  .contact-icon {
-    font-size: 1.25rem;
-    flex-shrink: 0;
-  }
-
-  .contact-text {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-  }
-
-  .contact-text strong {
-    color: #4a5568;
-    font-weight: 600;
-  }
-
-  .contact-text a {
-    color: #ff6b6b;
-    text-decoration: none;
-    transition: color 0.2s ease;
-  }
-
-  .contact-text a:hover {
-    color: #ee5a24;
-  }
-
-  .social-links {
-    display: flex;
-    gap: 16px;
-    margin-top: 8px;
-  }
-
-  .social-link {
-    color: #4ecdc4;
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.2s ease;
-  }
-
-  .social-link:hover {
-    color: #44a08d;
-  }
-
-  .donation-description {
-    color: #718096;
-    margin-bottom: 24px;
-    line-height: 1.6;
-  }
-
-  .donation-amounts {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
-    margin-bottom: 24px;
-  }
-
-  .amount-btn {
-    padding: 12px 16px;
-    border: 2px solid #e2e8f0;
-    background: white;
-    border-radius: 8px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.2s ease;
-  }
-
-  .amount-btn:hover,
-  .amount-btn.active {
-    border-color: #ff6b6b;
-    background: #fff5f5;
-    color: #ff6b6b;
-  }
-
-  .donation-actions {
-    text-align: center;
-    margin-bottom: 24px;
-  }
-
-  .donation-btn {
-    width: 100%;
-    justify-content: center;
-    margin-bottom: 12px;
-  }
-
-  .donation-note {
-    font-size: 0.875rem;
-    color: #718096;
-    margin: 0;
-  }
-
-  .impact-note {
-    background: linear-gradient(135deg, #f0fff4 0%, #c6f6d5 100%);
-    padding: 16px;
-    border-radius: 8px;
-    font-size: 0.875rem;
-    color: #2f855a;
-    border-left: 4px solid #4ecdc4;
-  }
-
-  @media (max-width: 768px) {
+  <style>
     .contact-content {
-      grid-template-columns: 1fr;
-      gap: 32px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      max-width: 1000px;
+      margin: 0 auto;
     }
 
     .contact-card,
     .donation-card {
-      padding: 24px;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 10px 30px -5px rgba(255, 107, 107, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .contact-title,
+    .donation-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #2d3748;
+      margin-bottom: 24px;
+    }
+
+    .contact-details {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+    }
+
+    .contact-icon {
+      font-size: 1.25rem;
+      flex-shrink: 0;
+    }
+
+    .contact-text {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .contact-text strong {
+      color: #4a5568;
+      font-weight: 600;
+    }
+
+    .contact-text a {
+      color: #ff6b6b;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    .contact-text a:hover {
+      color: #ee5a24;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 16px;
+      margin-top: 8px;
+    }
+
+    .social-link {
+      color: #4ecdc4;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s ease;
+    }
+
+    .social-link:hover {
+      color: #44a08d;
+    }
+
+    .donation-description {
+      color: #718096;
+      margin-bottom: 24px;
+      line-height: 1.6;
     }
 
     .donation-amounts {
+      display: grid;
       grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin-bottom: 24px;
     }
-  }
-</style>
+
+    .amount-btn {
+      padding: 12px 16px;
+      border: 2px solid #e2e8f0;
+      background: white;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .amount-btn:hover,
+    .amount-btn.active {
+      border-color: #ff6b6b;
+      background: #fff5f5;
+      color: #ff6b6b;
+    }
+
+    .donation-actions {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    .donation-btn {
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 12px;
+    }
+
+    .donation-note {
+      font-size: 0.875rem;
+      color: #718096;
+      margin: 0;
+    }
+
+    .impact-note {
+      background: linear-gradient(135deg, #f0fff4 0%, #c6f6d5 100%);
+      padding: 16px;
+      border-radius: 8px;
+      font-size: 0.875rem;
+      color: #2f855a;
+      border-left: 4px solid #4ecdc4;
+    }
+
+    @media (max-width: 768px) {
+      .contact-content {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+
+      .contact-card,
+      .donation-card {
+        padding: 24px;
+      }
+
+      .donation-amounts {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</section>
